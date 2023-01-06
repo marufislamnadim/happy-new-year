@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+    line-height: 28px;
+    font-size: 18px;
+}
+/* Banner section */
+.banner-area{
+    width: 100%;
+    height: 700px;
+    background-image: url('../images/banner/banner1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+}
+.banner-info{
+    max-width: 300px;
+    padding-right: 200px;
+}
+.banner-title, .section-title{
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+.banner-description, .section-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    background: orange;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+/* about-failures section starts here */
+.about-failures{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-failures-left{
+    max-width: 50%;
+}
+.about-failures-left>img{
+    width: 400px;
+    height: 500px;
+    margin-left: 300px;
+}
+.about-failures-right{
+    max-width: 50%;
+    margin-right: 350px;
+    margin-left: 80px;
+}
+.fa-check{
+    color: rgb(6, 110, 75);
+}
+/* my plan section */
+.plan{
+    width: 100%;
+    text-align: center;
+    margin: 40px 0px;
+}
+.plan-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 100px 0px;
+    
+}
+.plan-card{
+    text-align: center;
+}
+.plan-title{
+    margin: 16px 0;
+}
