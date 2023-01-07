@@ -1,3 +1,6 @@
+/* *****************
+    Global section
+************** *****/
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +13,15 @@ ul li{
     line-height: 28px;
     font-size: 18px;
 }
-/* Banner section */
+button:hover{
+    cursor: pointer;
+}
+.fa-solid{
+    color: seagreen;
+}
+
+/********* Banner section ************/
+
 .banner-area{
     width: 100%;
     height: 700px;
@@ -32,6 +43,7 @@ ul li{
     font-weight: 700;
     margin-bottom: 20px;
     line-height: 50px;
+    text-transform: capitalize;
 }
 .banner-description, .section-description{
     font-size: 16px;
@@ -48,7 +60,9 @@ button{
     font-weight: 500;
     color: white;
 }
-/* about-failures section starts here */
+
+/************ about-failures section starts here ************/
+
 .about-failures{
     width: 100%;
     height: 700px;
@@ -72,11 +86,13 @@ button{
 .fa-check{
     color: rgb(6, 110, 75);
 }
-/* my plan section */
+
+/**************** my plan section **********/
+
 .plan{
     width: 100%;
     text-align: center;
-    margin: 40px 0px;
+    margin: 40px 0px 100px 0px;
 }
 .plan-section{
     display: flex;
@@ -87,6 +103,100 @@ button{
 .plan-card{
     text-align: center;
 }
+.plan-card:hover{
+    padding: 10px;
+    border: 1px solid orangered;
+    background-color: gray;
+    color: aquamarine;
+    border-radius: 20%;
+}
 .plan-title{
     margin: 16px 0;
+}
+
+/************** call-now section **************/
+
+.call-now{
+    width: 950px;
+    height: 250px;
+    margin: 0 auto 80px;
+    border-radius: 10px;
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    mix-blend-mode:lighten;
+}
+.call-now > .section-title{
+    padding: 30px 0px 10px 30px;
+    color: aliceblue;
+}
+.call-now > button{
+    margin-left: 30px;
+    color: orangered;
+    background: aliceblue;
+    font-size: 18px;
+}
+/********* video galary section *****************/
+
+.galary{
+    width: 90%;
+    margin: 0 auto 80px;
+    text-align: center;
+}
+.galary > .section-title{
+    margin-bottom: 50px;
+}
+.special-text{
+    color: orangered;
+    font-weight: 700;
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.video-card{
+    min-width: 30%;
+    height: 350px;
+    box-shadow: 0 28px 16px -4px lightblue;
+    border-radius: 15px;
+}
+/************** footer section *************************/
+footer{
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: left;
+    display: flex;
+    gap: 440px;
+    justify-content: space-around;
+    align-items:flex-start;
+    padding: 80px 0;
+}
+footer > .futures > .mail{
+    margin: 24px 0px;
+}
+footer > .futures > .phn{
+    margin-bottom: 24px;
+}
+footer > .futures > .icons{
+    display: flex;
+    gap: 20px;
+}
+footer > .subscribe > h2{
+    margin-bottom: 40px;
+}
+footer > .subscribe > #email{
+    margin-bottom: 40px;
+    width: 240px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+}
+#btn-subscribe{
+    background: white;
+    color: orange;
 }

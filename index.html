@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy New Year</title>
-    <!-- External CSS file linking -->
+    <!-- *********** External CSS file linking *********** -->
     <link rel="stylesheet" href="./styles/style.css">
-    <!-- font-awesome linking here -->
+    <!-- *********** font-awesome linking here *********** -->
     <script src="https://kit.fontawesome.com/f0637a963f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Head and Banner Section Starts Here -->
+    <!-- *********** Head and Banner Section Starts Here *********** -->
     <header class="banner-area">
         <div class="banner-info">
             <h2 class="banner-title">All Thinks Are Possible If You Believe</h2>
             <p class="banner-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.
             </p>
-            <button>Contact Us</button>
+            <button><i class="fa-solid fa-phone"></i> Contact Us</button>
         </div>
     </header>
-    <!-- remaining sections starts here -->
+    <!-- *********** remaining sections starts here *********** -->
     <main>
-        <!-- About-failures section  -->
+        <!-- *********** About-failures section *********** -->
         <section class="about-failures">
             <div class="about-failures-left">
                 <img src="./images/person.png" alt="Mrs. Lary Emma">
@@ -40,7 +40,7 @@
                 </ul>
             </div>
         </section>
-        <!-- My plan section -->
+        <!-- *********** My plan section *********** -->
         <section class="plan">
             <h2 class="section-title">My Plans</h2>
             <div class="plan-section">
@@ -66,9 +66,44 @@
                 </div>
             </div>
         </section>
+        <!-- *********** Call now / apointment section *********** -->
+        <section class="call-now">
+            <h2 class="section-title">Always keep a positive <br>mindset</h2>
+            <button>
+                <i class="fa-solid fa-phone"></i> Call Now
+            </button>
+        </section>
+        <!-- *********** video gallary section *********** -->
+        <section class="galary">
+            <h2 class="section-title">Watch the <span class="special-text">Inspirational</span> videos</h2>
+            <div class="videos">
+                <div class="video-card">
+                    <iframe width="500" height="350" src="https://www.youtube.com/embed/Rim14e5_Hwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <iframe width="500" height="350" src="https://www.youtube.com/embed/kUMV7jmbpPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <!-- Footer section starts here -->
+    <footer class="footer">
+        <div class="futures">
+            <h2 class="future-title section-title">Future</h2>
+            <p class="futture-details section-description">Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Commodi dicta itaque aperiam <br> eligendi at, corrupti voluptate neque.</p>
+            <p class="mail"><i class="fa-solid fa-envelope-circle-check"></i> Email: xyz@zebra.com.ud</p>
+            <p class="phn"><i class="fa-solid fa-phone-volume"></i> Phone: (+880) 1723 456789</p>
+            <div class="icons">
+                <img src="./images/icons/fb.png" alt="facebook link">
+                <img src="./images/icons/youtube.png" alt="youtube link">
+                <img src="./images/icons/twitter.png" alt="twitter link">
+            </div>
+        </div>
+        <div class="subscribe">
+            <h2>Subscribe</h2>
+            <input type="email" name="Email ID" id="email" placeholder=" Enter your email"> <br>
+            <button id="btn-subscribe">Subcribe</button>
+        </div>
     </footer>
 </body>
 </html>
